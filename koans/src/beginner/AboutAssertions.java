@@ -62,7 +62,7 @@ public class AboutAssertions {
 	@Koan
 	public void assertNotSameInstance(){
 		Integer same           = new Integer(1);
-		Integer sameReference  = same;
+		Integer sameReference  = new Integer(1);
 		assertNotSame(same, sameReference); 
 	}
 }
