@@ -31,7 +31,7 @@ public class AboutAssertions {
 	
 	@Koan
 	public void assertNotNullObject(){
-		assertNotNull(null); // anything other than null should pass here...
+		assertNotNull(Boolean.TRUE); // anything other than null should pass here...
 	}
 
 	@Koan
