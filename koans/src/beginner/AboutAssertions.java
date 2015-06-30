@@ -41,7 +41,7 @@ public class AboutAssertions {
 
 	@Koan
 	public void assertEqualsWithBetterFailureMessage(){
-		assertEquals(1, __);
+		assertEquals(1, 1);
 	}
 
 	@Koan
