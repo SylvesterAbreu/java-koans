@@ -36,7 +36,7 @@ public class AboutAssertions {
 
 	@Koan
 	public void assertEqualsUsingExpression(){
-		assertTrue("Hello World!".equals(__));
+		assertTrue("Hello World!".equals("Hello World!"));
 	}
 
 	@Koan
