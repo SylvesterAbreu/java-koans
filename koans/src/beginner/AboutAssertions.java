@@ -26,7 +26,7 @@ public class AboutAssertions {
 	
 	@Koan
 	public void assertNullObject(){
-		assertNull(__);
+		assertNull(null);
 	}
 	
 	@Koan
