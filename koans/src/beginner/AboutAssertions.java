@@ -55,7 +55,7 @@ public class AboutAssertions {
 	@Koan
 	public void assertSameInstance(){
 		Object same				= new Integer(1);
-		Object sameReference	= __;
+		Object sameReference	= same;
 		assertSame(same, sameReference);
 	}
 	
