@@ -16,7 +16,7 @@ public class AboutAssertions {
 
 	@Koan 
 	public void assertBooleanTrue() {
-		assertTrue(__); // should be true really
+		assertTrue(true); // should be true really
 	}
 
 	@Koan
