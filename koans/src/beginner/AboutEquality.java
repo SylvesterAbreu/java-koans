@@ -38,6 +38,6 @@ public class AboutEquality {
 	@Koan
 	public void objectsEqualThemselves(){
 		Object obj = new Object();
-		assertEquals(obj.equals(obj), __);
+		assertTrue(obj.equals(obj));
 	}
 }
