@@ -18,8 +18,8 @@ public class AboutEquality {
 	@Koan
 	public void equalsMethodByDefaultTestsIfTwoObjectsAreTheSame(){
 		Object object = new Object();
-		assertEquals(object.equals(object), __);
-		assertEquals(object.equals(new Object()), __);
+		assertTrue(object.equals(object));
+		assertFalse(object.equals(new Object()));
 	}
 
 	@Koan
