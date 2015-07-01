@@ -25,8 +25,8 @@ public class AboutEquality {
 	@Koan
 	public void equalsMethodCanBeChangedBySubclassesToTestsIfTwoObjectsAreEqual(){
 		Object object = new Integer(1);
-		assertEquals(object.equals(object), __);
-		assertEquals(object.equals(new Integer(1)), __);
+		assertTrue(object.equals(object));
+		assertFalse(object.equals(new Integer(1)));
 		// Note: This means that for the class 'Object' there is no difference between 'equal' and 'same'
 	}
 
