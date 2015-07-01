@@ -40,7 +40,7 @@ public class AboutPrimitives {
 	@Koan
 	public void primitivesOfTypeLongHaveAnObjectTypeLong() {
 		Object number = 1L;
-		assertEquals(getType(number), __);
+		assertEquals(getType(number), Long.class);
 	}
 
 	@Koan
