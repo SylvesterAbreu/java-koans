@@ -32,7 +32,7 @@ public class AboutEquality {
 
 	@Koan
 	public void objectsNeverEqualNull(){
-		assertEquals(new Object().equals(null), __);
+		assertFalse(new Object().equals(null));
 	}
 
 	@Koan
