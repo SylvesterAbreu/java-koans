@@ -102,7 +102,7 @@ public class AboutPrimitives {
 
 	@Koan
 	public void wholeNumbersCanAlsoBeOfTypeChar() {
-		assertEquals(getType((char) 1), __);
+		assertEquals(getType((char) 1), char.class);
 	}
 
 	@Koan
