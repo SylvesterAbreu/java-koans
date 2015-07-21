@@ -78,7 +78,7 @@ public class AboutPrimitives {
 
 	@Koan
 	public void wholeNumbersCanAlsoBeOfTypeByte() {
-		assertEquals(getType((byte) 1), __);
+		assertEquals(getType((byte) 1), byte.class);
 	}
 
 	@Koan
