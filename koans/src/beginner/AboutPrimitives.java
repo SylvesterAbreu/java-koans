@@ -113,7 +113,7 @@ public class AboutPrimitives {
 	@Koan
 	public void primitivesOfTypeCharHaveAnObjectTypeCharacter() {
 		Object number = (char) 1;
-		assertEquals(getType(number), __);
+		assertEquals(getType(number), Character.class);
 	}
 
 	@Koan
