@@ -89,7 +89,7 @@ public class AboutPrimitives {
 
 	@Koan
 	public void bytesHaveASmallerRangeThanShorts() {
-		assertEquals(Byte.MIN_VALUE, __);
+		assertEquals(Byte.MIN_VALUE, (byte)-128);
 		assertEquals(Byte.MAX_VALUE, __);
 
 		// Why would you use short or byte considering that you need to do explicit casts?
