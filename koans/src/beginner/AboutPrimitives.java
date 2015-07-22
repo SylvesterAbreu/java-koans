@@ -126,7 +126,7 @@ public class AboutPrimitives {
 
 	@Koan
 	public void charSize() {
-		assertEquals(Character.SIZE, __);
+		assertEquals(Character.SIZE, 16);
 	}
 
 	@Koan
