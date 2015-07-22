@@ -136,7 +136,7 @@ public class AboutPrimitives {
 
 	@Koan
 	public void primitivesOfTypeDoubleCanBeDeclaredWithoutTheDecimalPoint() {
-		assertEquals(getType(1d), __);
+		assertEquals(getType(1d), double.class);
 	}
 
 	@Koan
