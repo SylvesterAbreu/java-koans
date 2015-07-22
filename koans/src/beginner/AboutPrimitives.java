@@ -131,7 +131,7 @@ public class AboutPrimitives {
 
 	@Koan
 	public void decimalNumbersAreOfTypeDouble() {
-		assertEquals(getType(1.0), __);
+		assertEquals(getType(1.0), double.class);
 	}
 
 	@Koan
