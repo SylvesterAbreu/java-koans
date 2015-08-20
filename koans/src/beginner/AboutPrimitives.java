@@ -160,7 +160,7 @@ public class AboutPrimitives {
 
 	@Koan
 	public void doubleSize() {
-		assertEquals(Double.SIZE, __);
+		assertEquals(Double.SIZE, 64);
 	}
 
 	@Koan
