@@ -178,7 +178,7 @@ public class AboutPrimitives {
 	@Koan
 	public void primitivesOfTypeFloatHaveAnObjectTypeFloat() {
 		Object number = 1f;
-		assertEquals(getType(number), __);
+		assertEquals(getType(number), Float.class);
 	}
 
 	@Koan
