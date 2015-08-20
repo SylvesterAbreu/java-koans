@@ -165,7 +165,7 @@ public class AboutPrimitives {
 
 	@Koan
 	public void decimalNumbersCanAlsoBeOfTypeFloat() {
-		assertEquals(getType(1f), __);
+		assertEquals(getType(1f), float.class);
 	}
 
 	@Koan
