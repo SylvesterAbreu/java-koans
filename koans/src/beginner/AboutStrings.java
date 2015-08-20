@@ -43,7 +43,7 @@ public class AboutStrings {
 		String one = "one";
 		String space = " ";
 		String two = "two";
-		assertEquals(one + space + two, __);
+		assertEquals(one + space + two, "one two");
 	}
 
 	@Koan
