@@ -83,7 +83,7 @@ public class AboutStrings {
 
 	@Koan
 	public void extraArgumentsToMessageFormatGetIgnored() {
-		assertEquals(MessageFormat.format("{0} {1} {0}", "a", "b", "c"), __);
+		assertEquals(MessageFormat.format("{0} {1} {0}", "a", "b", "c"), "a b a");
 	}
 
 	@Koan
