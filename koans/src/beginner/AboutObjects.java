@@ -6,6 +6,7 @@ import static com.sandwich.util.Assert.assertEquals;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 import com.sandwich.koan.Koan;
 
@@ -21,8 +22,8 @@ public class AboutObjects {
 		class Foo {}
 
 		Class<?>[] ancestors = getAncestors(new Foo());
-		assertEquals(ancestors[0], __);
-		assertEquals(ancestors[1], __);
+		assertEquals(ancestors[0], Foo.class);
+		assertEquals(ancestors[1], Object.class);
 	}
 
 	@Koan
