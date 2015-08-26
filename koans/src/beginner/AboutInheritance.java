@@ -21,9 +21,9 @@ public class AboutInheritance {
 	
 	@Koan
 	public void differenceBetweenOverloadingAndOverriding() {
-		assertEquals(new Parent().doStuff(), __);
-		assertEquals(new Child().doStuff(), __);
-		assertEquals(new Child().doStuff("oh no"), __);
+		assertEquals(new Parent().doStuff(), "parent");
+		assertEquals(new Child().doStuff(), "child");
+		assertEquals(new Child().doStuff("oh no"), "oh no");
 	}
 	
 	abstract class ParentTwo {
