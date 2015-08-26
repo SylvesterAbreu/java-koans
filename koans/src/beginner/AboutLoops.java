@@ -62,9 +62,9 @@ public class AboutLoops {
 			if("Cat".equals(current)) {
 				break;
 			}
-			count++;	
+			count++;
 		}
-		assertEquals(count, __);
+		assertEquals(count, 1);
 	}
 	
 	@Koan
