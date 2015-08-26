@@ -39,6 +39,6 @@ public class AboutInheritance {
 		// What do you need to change in order to get rid of the type cast?
 		// Why does this work?
 		List<?> list = (List<?>) new ChildTwo().doStuff();
-		assertEquals(list instanceof List, __);
+		assertEquals(list instanceof List, true);
 	}
 }
