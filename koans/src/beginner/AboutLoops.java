@@ -75,10 +75,10 @@ public class AboutLoops {
 			if("Dog".equals(current)) {
 				continue;
 			} else {
-				count++;	
+				count++;
 			}
 		}
-		assertEquals(count, __);
+		assertEquals(count, 2);
 	}
 
 	@Koan
