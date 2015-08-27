@@ -55,7 +55,7 @@ public class AboutConditionals {
 			if (otherBooleanCondition) x = 10;
 		else x--;
 		// Where does this else belong to!?
-		assertEquals(x, __);
+		assertEquals(x, 10);
 	}
 	
 	@Koan
