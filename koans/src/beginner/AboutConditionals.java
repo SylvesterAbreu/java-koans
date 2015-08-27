@@ -41,7 +41,7 @@ public class AboutConditionals {
 			x = 10;
 		else
 			x--;
-		assertEquals(x, __);
+		assertEquals(x, 10);
 	}
 	
 	@Koan
