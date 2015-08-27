@@ -23,7 +23,7 @@ public class AboutEnums {
 	@Koan
 	public void basicEnumsAccess() {
 		Colors[] colorArray = Colors.values();
-		assertEquals(colorArray[2], __);
+		assertEquals(colorArray[2], Colors.Green);
 	}
 	
 	enum SkatSuits {
