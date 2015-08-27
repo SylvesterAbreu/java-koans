@@ -69,7 +69,7 @@ public class AboutConditionals {
 		}
 		// There are different opinions on where the curly braces go...
 		// But as long as you put them here. You avoid problems as seen above.
-		assertEquals(x, __);
+		assertEquals(x, 2);
 	} 
 	
 	@Koan 
