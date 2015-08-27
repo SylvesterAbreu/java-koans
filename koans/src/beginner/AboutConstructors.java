@@ -19,7 +19,7 @@ public class AboutConstructors {
 	
 	@Koan
 	public void simpleConstructorOrder(){
-		assertEquals(new B().someString, __);
+		assertEquals(new B().someString, "axg");
 	}
 	
 	class Aa {
