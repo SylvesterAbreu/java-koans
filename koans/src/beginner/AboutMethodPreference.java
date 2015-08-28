@@ -32,7 +32,7 @@ public class AboutMethodPreference {
 	@Koan
 	public void methodPreferenceBoxedLong() {
 		Long l = Long.valueOf(1);
-		assertEquals(new A().doStuff(l), __);
+		assertEquals(new A().doStuff(l), "Object");
 	}
 	
 	@Koan
