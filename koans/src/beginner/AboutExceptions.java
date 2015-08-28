@@ -89,8 +89,8 @@ public class AboutExceptions {
 	public void returnInFinallyBlock() {
 		StringBuilder whatHappened = new StringBuilder();
 		// Which value will be returned here?
-		assertEquals(returnStatementsEverywhere(whatHappened), __);
-		assertEquals(whatHappened.toString(), __);
+		assertEquals(returnStatementsEverywhere(whatHappened), "from finally");
+		assertEquals(whatHappened.toString(), "try, catch, finally");
 	}
 	
 	private void doUncheckedStuff() {
