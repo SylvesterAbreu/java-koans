@@ -21,7 +21,7 @@ public class AboutExceptions {
 		} catch(IOException e) { 
 			s = "exception thrown";
 		}
-		assertEquals(s, __);
+		assertEquals(s, "exception thrown");
 	}
 	
 	@Koan
