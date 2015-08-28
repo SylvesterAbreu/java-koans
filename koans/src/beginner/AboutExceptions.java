@@ -46,7 +46,7 @@ public class AboutExceptions {
 		} finally {
 			s += " and finally ran as well";
 		}
-		assertEquals(s, __);
+		assertEquals(s, "code ran normally and finally ran as well");
 	}
 	
 	private void tryCatchFinallyWithVoidReturn(StringBuilder whatHappened) {
